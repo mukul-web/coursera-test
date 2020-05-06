@@ -1,0 +1,96 @@
+
+*    {
+    box-sizing: border-box;
+    
+}
+body {
+	background-color: azure;
+	margin: 50px ;
+	font-family: cursive, serif;
+}
+h1   {
+	text-align: center;
+	margin: 50px;
+	font-size: 3em;
+}
+span {
+	position: absolute;
+	right: 0px;
+	border: 1px solid black;
+    width: 130px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.title1 {
+	background-color: pink;
+}
+.title2 {
+	background-color: lightcoral;
+}
+.title3 {
+	background-color: bisque;
+}
+.row {
+	width: 100%;
+}
+.para {
+	padding-top: 20px;
+}
+.box {
+	float: left;
+	width: 32.33%;
+	background-color: darkgray;
+	margin: 4px 4px 15px 4px;
+	border: 1px solid black;
+	padding: 0px 5px 5px 15px;
+	position: relative;
+
+}
+
+
+@media (max-width: 767px) {
+	.box {
+     width: 100%;
+    
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.div1, .div2 {
+		width: 48.8%;
+	}
+
+	.div3 {
+		width: 100%;
+	}
+	.div1 {
+
+	}
+}
+
+/**@media (min-width: 992px) {
+	.box {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .row:after {
+        content: " ";
+        display: table;
+        clear: both;     
+    }
+	/**.section1, .section2, .section3 {
+        float: left;
+        width: 33.33%;
+
+	}
+       .section1 {
+		width: 33.33%;
+		
+	}
+	.section2 {
+		width: 33.33%;
+	}
+	.section3 {
+		width: 33.33%;
+	}
+}**/
